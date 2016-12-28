@@ -12,4 +12,26 @@
 
 get_header(); ?>
 
+
+<h1>¡Yawar Fighters!</h1>
+<!-- Begin of loop -->
+<?php 
+	$args = array(
+          //Type & Status Parameters
+          'post_type'   => array('post'), //change this one to your cpt-slug
+          'posts_per_page' => -1
+    );
+	$query = new WP_Query( $args ); 
+ ?>
+<?php if($query->have_posts()): ?>
+	<?php while($query->have_posts()): $query->the_post(); ?>
+		<hr>
+		<?php the_title(); ?>
+		<?php the_content(); ?>
+		
+	<?php endwhile; ?>
+<?php endif; ?> 
+<?php wp_reset_postdata(); ?>	
+<!-- End of loop -->
+
 <?php get_footer(); ?> 
