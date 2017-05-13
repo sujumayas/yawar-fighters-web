@@ -108,6 +108,23 @@ footer{
 	float: left;
 }
 
+#loginform{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.login-username{
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.login-password{
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
 @media only screen and (max-width: 768px) {
     .logo{
     	width: 100%;
@@ -118,4 +135,19 @@ footer{
     .container{
     	padding: 0 !important;
     }
+    #loginform{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.login-username{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.login-password{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
 }

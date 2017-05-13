@@ -19,25 +19,12 @@ Template Name: Page Login
 		}
 		else{
 			echo 'Welcome back, '.'<span style="color:red; text-decoration:underline;">'.$current_user->user_login.'</span>'.'!! You are logged in!';
-			echo '';
+			echo '<br>
+				<a class="button-texture" style="margin-bottom:10px;" href="<?php echo wp_logout_url(); ?>">Logout</a>';
 		}
 	?>
-	<br>
-	<a class="button-texture" style="margin-bottom:10px;" href="<?php echo wp_logout_url(); ?>">Logout</a>
 </section>
-<aside>
-	<div class="aside-content">
-		<h2>Aside</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum repudiandae impedit, ex, in voluptatibus iure nam dolores? Quas eligendi, earum assumenda sapiente dignissimos error quisquam optio a aliquid esse ipsum non autem obcaecati impedit reiciendis ipsa minima harum iusto animi, amet architecto enim fugiat? Eum nobis dolor necessitatibus, soluta tempora.</p>
-	</div>
-	<div class="aside-content">
-		<h2>Aside</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum repudiandae impedit, ex, in voluptatibus iure nam dolores? Quas eligendi, earum assumenda sapiente dignissimos error quisquam optio a aliquid esse ipsum non autem obcaecati impedit reiciendis ipsa minima harum iusto animi, amet architecto enim fugiat? Eum nobis dolor necessitatibus, soluta tempora.</p>
-	</div>
-	<div class="aside-content">
-		<h2>Aside</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum repudiandae impedit, ex, in voluptatibus iure nam dolores? Quas eligendi, earum assumenda sapiente dignissimos error quisquam optio a aliquid esse ipsum non autem obcaecati impedit reiciendis ipsa minima harum iusto animi, amet architecto enim fugiat? Eum nobis dolor necessitatibus, soluta tempora.</p>
-	</div>
-</aside>
+
+<?php include 'aside.php'; ?>
 
 <?php get_footer(); ?> 
