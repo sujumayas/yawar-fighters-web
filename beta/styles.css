@@ -150,4 +150,31 @@ footer{
 		margin-left: 0;
 		margin-right: 0;
 	}
+	.nav{
+		height: 375px;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	.nav ul{
+		width: 100%;
+		margin-bottom: 10px;
+		height: auto;
+	}
+	.nav ul li{
+		width: 100%;
+		float: left;
+		height: auto;
+	}
+	.container{
+		width: 100%;
+		border: none;
+	}
+	header{
+		width: 100%;
+	}
+	section, aside{
+		float: left;
+		width: 100%;
+	}
+
 }
