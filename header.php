@@ -19,7 +19,7 @@
   <?php 
   // FavIcons for different devices 
   get_template_part( "includes/templates/icons" ); ?> 
-  <link rel="stylesheet" href="beta/styles.css">
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/beta/styles.css">
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     
   <?php wp_head(); ?>
@@ -45,15 +45,15 @@
 <div class="container">
     <header>
       <div class="logo">
-        <h1><img src="/beta/logo.jpg" alt="Yawar Fighters"></h1>
+        <h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/beta/logo.jpg" alt="Yawar Fighters"></h1>
       </div>
       <nav class="nav">
         <ul>
-          <li><a href="">News</a></li>
-          <li><a href="">Item</a></li>
-          <li><a href="">Download</a></li>
-          <li><a href="">Lore</a></li>
-          <li><a href="">Contact us</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="http://yawarfighters.info/login">Login</a></li>
+          <li><a href="#">Download</a></li>
+          <li><a href="#">Lore</a></li>
+          <li><a href="#">Contact us</a></li>
         </ul>
       </nav>
     </header>

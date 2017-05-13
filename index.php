@@ -31,20 +31,10 @@ get_header(); ?>
 	<?php wp_reset_postdata(); ?>	
 	<!-- End of loop -->
 </section>
-<aside>
-	<div class="aside-content">
-		<h2>Aside</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum repudiandae impedit, ex, in voluptatibus iure nam dolores? Quas eligendi, earum assumenda sapiente dignissimos error quisquam optio a aliquid esse ipsum non autem obcaecati impedit reiciendis ipsa minima harum iusto animi, amet architecto enim fugiat? Eum nobis dolor necessitatibus, soluta tempora.</p>
-	</div>
-	<div class="aside-content">
-		<h2>Aside</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum repudiandae impedit, ex, in voluptatibus iure nam dolores? Quas eligendi, earum assumenda sapiente dignissimos error quisquam optio a aliquid esse ipsum non autem obcaecati impedit reiciendis ipsa minima harum iusto animi, amet architecto enim fugiat? Eum nobis dolor necessitatibus, soluta tempora.</p>
-	</div>
-	<div class="aside-content">
-		<h2>Aside</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum repudiandae impedit, ex, in voluptatibus iure nam dolores? Quas eligendi, earum assumenda sapiente dignissimos error quisquam optio a aliquid esse ipsum non autem obcaecati impedit reiciendis ipsa minima harum iusto animi, amet architecto enim fugiat? Eum nobis dolor necessitatibus, soluta tempora.</p>
-	</div>
-</aside>
+<?php include 'aside.php'; ?>
+
+
+
 
 
 <?php get_footer(); ?> 

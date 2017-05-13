@@ -49,6 +49,16 @@ header{
 	background-image: url('button-texture.jpg');
 	background-size: cover;
 }
+.button-texture{
+	margin-top: 15px;
+	width: 100px;
+	padding: 20px;
+	display: inline-block;
+	border: 2px gray solid;
+	border-radius: 10px;
+	background-image: url('button-texture.jpg');
+	background-size: cover;
+}
 .nav ul li:hover{
 	opacity: 0.9;
     filter: alpha(opacity=90); 
