@@ -31,3 +31,4 @@ stunnel.log
 
 .ruby-version
 .bundle
+node_modules/

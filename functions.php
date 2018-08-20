@@ -44,3 +44,9 @@ require_once("includes/functions/security.php");
 
 // Utilities
 //require_once("includes/functions/utilities.php");
+
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page();
+	
+}
